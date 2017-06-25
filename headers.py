@@ -6,3 +6,7 @@ def html(response):
 def text(response):
 	response.content_type = "text/plain"
 	return response
+
+def json(response):
+	response.content_type = "application/json"
+	return response
